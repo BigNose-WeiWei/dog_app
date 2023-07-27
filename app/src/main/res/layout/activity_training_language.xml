@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Training.Training_language">
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="狗狗豐富的肢體語言"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view8">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent">
+
+                <TextView
+                    android:id="@+id/textView162"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="狗狗耳朵動作代表什麼"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView163"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView164"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1、耳朵用力豎起"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView165"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView166"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="若是發現狗狗的耳朵忽然豎起或是往前傾的話，而且同時感覺到他全身奮力時，代表他有攻擊或是警戒的意思。"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView188"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView167"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView168"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2、耳朵自然下垂"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView169"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView170"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="相反地，狗狗的耳朵是呈現放鬆的狀態，自然下垂的話，就代表狗狗並沒又在生氣或是表示服從的意思。"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView171"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView189"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView172"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3、耳朵緊貼腦袋"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView173"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView174"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="然而當你發現狗狗把耳朵僅僅的貼於自己的腦袋上時，可能是代表此時此刻的牠非常害怕，飼主要視狀況安撫牠。"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView175"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView176"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView177"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="其他身體部位的肢體語言"
+                    android:textSize="32sp" />
+
+                <TextView
+                    android:id="@+id/textView178"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView179"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1、熱情舔別人時"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView180"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView181"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="當狗狗用舌頭舔你的時候，除了要表達順從的意思，還有牠想向你示出好意，與你展現友好的關係。"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView182"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView183"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView184"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2、某區域繞圈圈"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView185"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView186"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="常常會發現狗狗走路方式變為急躁、表情改變，而且會開始在某個區域繞圈圈，這可能是想要大便的徵兆。可以利用這個時機帶狗狗去上廁所，並訓練如廁的好習慣。"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView187"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView190"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView191"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3、腿部緊繃打開"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView192"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView193"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="當狗狗的腿繃緊而且打開，這時候就要小心了，因為狗狗要準備攻擊了！當牠有這個動作是，代表牠已經準備奮力的向前衝。"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView194"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView195"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView196"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="狗狗尾巴的情緒表達"
+                    android:textSize="32sp" />
+
+                <TextView
+                    android:id="@+id/textView197"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView198"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1、尾巴用力豎高"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView199"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="一般而言，當狗狗的尾巴高高直立時，也表達了其強烈的支配控制力、攻擊本能以及警戒心。這時候也要小心了，別招惹牠，因為此時的牠可能心情正不好。"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView201"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView202"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView203"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2、搖晃尾巴時候"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView204"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView205"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="其實狗狗搖晃尾巴的時候不代表牠心情很好喔！有時候牠們會左右畫圓的用力擺動尾巴，但這可能是在發出別靠近牠們的警訊。"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView206"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView207"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView208"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3、緩慢搖晃尾巴"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView209"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView210"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="當牠緩慢的搖動牠的尾巴，同時很認真地注視著一項事務時，就是在發出警告的訊號。假若此時貿然接近狗狗，很有可能會遭受到襲擊。"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

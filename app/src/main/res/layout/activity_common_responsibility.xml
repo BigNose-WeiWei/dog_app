@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".common_responsibility">
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="善  盡  飼  主  責  任"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1、您有足夠的時間照顧狗狗嗎？"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="幫狗清理排泄物、洗澡、梳毛、疾病就醫、教育生活常規、帶牠散步運動等等……這些都是飼主基本要為狗兒做到的事情，會花掉主人不少時間，您確定自己有這麼多時間嗎？尤其是堅持養幼犬的人，絕對要仔細考慮自己的作息時間，能否應付幼犬容易生病、愛哭叫、愛亂咬、不會定點大小便的特質？這些惱人的特質，需要飼主花很多時間、尋求正確方法去調教、改善。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2、您有經濟基礎嗎？您捨得花錢在狗身上嗎？"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/sfdsfsf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="有錢雖然不代表一定很會照顧狗，但是沒錢肯定會降低狗兒的飼育品質。狗兒的飼料、預防針、晶片植入、心絲蟲預防藥都是基本開銷，這還沒包括長毛狗的美容費（假如飼主無法自行打理）、點心、玩具，以及偶然患病或是發生意外的醫療費，狗兒年老時，更是容易生病，狗兒沒有健保，醫藥費通常貴得嚇人，如果沒有經濟基礎，沒有一筆閒錢，如何能應付這麼多的花費？"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3、您有責任感與耐心嗎？"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您能堅定意志，在任何情況下都以狗兒的幸福為優先考量嗎？我所謂的任何情況，包括：搬家、結婚生子、狗兒規矩很差、狗兒得慢性病不易醫治、狗兒變老變醜等等……當上述情況出現時，您還願意堅守當初對牠的承諾，設法排解這些問題，繼續愛牠嗎？"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4、您得到家人的同意與支持嗎？"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您與同住之家人都喜歡狗嗎？都願意忍受生活裡多一隻狗所可能帶來的不便嗎？例如：幼犬愛吠叫、尚未學會定點大小便、家中有異味、亂咬家具物品、換毛季節的掉毛問題（即使短毛狗也會喔！）、家人有呼吸道過敏體質嗎？會認為小孩與狗不能並存於家中嗎？……尤其是家中長輩的態度最為關鍵（未婚者也須把交往對象、未來可能同住的姻親對狗的態度，列為重要考慮），如果長輩僅是勉強不反對，日後他們一旦感受到上述的不便時，很容易反悔而逼迫狗兒離開，屆時狗兒該何去何從？"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5、您的居處穩定嗎？"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="您是居無定所，時常搬家的遊牧民族嗎？狗狗經常處在換環境的情況下，情緒會變得焦慮，行為也有可能失常，到時恐怕成為棄養的理由．另外，您每次搬家，都能順利租到能養狗的房子或社區嗎？這種充滿變數的生活，連人都過得不安穩，又何來能力好好照顧狗？"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6、您養狗前，做好功課了嗎？"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="養狗前請先做好功課，網路上、書店裡，多的是這方面的資訊，養狗如同養嬰兒，從健康上的照顧到行為教養問題，都是大學問；偏愛養純種狗的人，更該先查清楚該品種的遺傳疾病、遺傳個性，是否在您的忍耐範圍之內？沒弄清楚之前，請勿為了衝動，輕易帶狗回家，日後一旦反悔，倒楣的又是無辜的狗兒！"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

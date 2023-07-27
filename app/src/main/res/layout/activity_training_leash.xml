@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Training.Training_leash">
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="牽繩注意事項"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view8">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:text="1、牽引繩的長短"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="牽引繩的長度不宜過長也不宜過短，一開始就使用過長的牽引繩，無法在訓練上得到很好效果；然而過短的牽引繩會縮短狗狗活動的範圍，在開始訓練時狗狗會極度不適應。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView28"
+                app:layout_constraintStart_toStartOf="@+id/textView28"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="2、防止狗狗啃咬"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="行走時不要讓狗狗嘶咬或咀嚼牽引繩。若狗狗咬住牽引繩，您應輕輕地移開，但不要拉，將牽引繩置於狗狗視線範圍外，這樣狗狗就很難有機會咬到。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView126"
+                app:layout_constraintStart_toStartOf="@+id/textView126"
+                app:layout_constraintTop_toBottomOf="@+id/textView126"
+                tools:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="3、解決牽繩纏繞"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView133" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="如果牽引繩纏繞訓導員或狗狗的腿，首先停下來慢慢解開牽引繩，同時為了不使狗狗緊張，要輕聲地呼喚狗狗的名字。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView147"
+                app:layout_constraintStart_toStartOf="@+id/textView147"
+                app:layout_constraintTop_toBottomOf="@+id/textView147" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="4、不可粗魯拉扯"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView148" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="使用牽引繩最大的要點是要讓狗狗消除恐懼和疑慮，才能使訓練效果達到最大。所以要特別注意，不可以在使用牽繩時粗魯、猛烈的拉扯，以免造成狗狗傷害和抗拒。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView149"
+                app:layout_constraintStart_toStartOf="@+id/textView149"
+                app:layout_constraintTop_toBottomOf="@+id/textView149" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="5、訓練要有耐心"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView150" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="有些主人在訓練狗狗使用牽引繩的時候，會因為急燥而生氣，甚至是隨手拿起牽引繩鞭打狗狗，這都是非常不好的行為，容易讓狗狗將牽引繩和不好的印象做連結。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView151"
+                app:layout_constraintStart_toStartOf="@+id/textView151"
+                app:layout_constraintTop_toBottomOf="@+id/textView151" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

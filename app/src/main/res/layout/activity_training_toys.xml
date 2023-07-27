@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Training.Training_toys">
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="玩具對狗狗的重要性"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view8">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:text="1、跟主人多互動 "
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="主人可以使用玩具跟狗狗做互動，如此一來狗狗會更喜歡這玩具，例如：拋球撿球的遊戲，幾乎是所有狗狗都喜歡的吧！"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView28"
+                app:layout_constraintStart_toStartOf="@+id/textView28"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="2、增加牠活動量"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="狗狗是個活潑好動的寵物，因使需要消耗一些牠的體力，玩具此時就扮演相當重要的角色囉，有時候可以看到狗狗自己跟玩具玩的不亦樂乎！"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView126"
+                app:layout_constraintStart_toStartOf="@+id/textView126"
+                app:layout_constraintTop_toBottomOf="@+id/textView126"
+                tools:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="3、充實狗狗生活"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView133" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="若總是沒人陪伴狗狗玩耍，狗狗也是會憂鬱的，因此玩具還有一樣幫助就是可以幫助狗減輕壓力，減少狗狗破壞性行為的可能性。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView147"
+                app:layout_constraintStart_toStartOf="@+id/textView147"
+                app:layout_constraintTop_toBottomOf="@+id/textView147" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="4、材質必須注重"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView148" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="要搭配狗狗的個性，因為有些狗狗性格比較衝動，可能容易咬壞東西，那就必須選擇比較堅固的材質，或是咬壞了也不會有危險性的玩具。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView149"
+                app:layout_constraintStart_toStartOf="@+id/textView149"
+                app:layout_constraintTop_toBottomOf="@+id/textView149" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="5、定期清潔乾淨"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView150" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="論是何種材質的玩具，主人都應該要定期做清潔，否則玩具上的細菌數可是非常可觀的，會影響到愛犬的健康，這樣反而本末倒置了！"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView151"
+                app:layout_constraintStart_toStartOf="@+id/textView151"
+                app:layout_constraintTop_toBottomOf="@+id/textView151" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

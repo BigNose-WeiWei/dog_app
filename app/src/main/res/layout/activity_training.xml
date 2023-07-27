@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.WarringFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="基本訓練"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp"
+                android:padding="10dp"
+                android:background="@drawable/button_usebackground"
+                android:onClick="language"
+                android:text="肢體語言"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="8dp"
+                android:padding="10dp"
+                android:background="@drawable/button_usebackground"
+                android:onClick="attitude"
+                android:text="態度原則"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/button_map_walk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp"
+                android:padding="10dp"
+                android:background="@drawable/button_usebackground"
+                android:onClick="fight"
+                android:text="狗與狗相處法則"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/button_map_hos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp"
+                android:padding="10dp"
+                android:background="@drawable/button_usebackground"
+                android:onClick="train"
+                android:text="基本要件"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp"
+                android:padding="10dp"
+                android:background="@drawable/button_usebackground"
+                android:onClick="toys"
+                android:text="玩具的重要性"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp"
+                android:padding="10dp"
+                android:background="@drawable/button_usebackground"
+                android:onClick="cage"
+                android:text="乖進籠"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="24dp"
+                android:padding="10dp"
+                android:background="@drawable/button_usebackground"
+                android:onClick="leash"
+                android:text="牽繩注意事項"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

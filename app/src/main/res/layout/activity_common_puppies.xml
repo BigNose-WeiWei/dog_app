@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".common_puppies">
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="幼  犬  飼  養  須  知"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view13">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1、餵食"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="給予適合的幼犬飼料( 大型犬幼犬一定要給予大型幼犬專用飼料，以免營養不足 )幼犬一天餵食3~4餐，直到6個月大以後一天改餵食2~3餐直到幼犬9個月大，狗狗9個月大以後可依情況維持一天一餐或兩餐。(小型犬建議一天還是至少兩餐)"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="不建議過於頻繁給予幼犬罐頭與零食拌飼料餵食，以免幼犬出現挑食的狀況。合格廠牌的飼料皆已經含有正常狗狗所需的營養，所有其他的添加物皆不是必須的。隨時都有好料吃的狗狗，訓練獎賞的吸引力也就不高嚕。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="不建議隨意餵食狗狗人類的食物，有些食物會造成狗狗中毒；(如：巧克力、洋蔥、韭菜、大蒜、葡萄等)狗狗也可能會因此出現挑食的現象；人類食物對狗來說過油過鹹，會造成身體負擔。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2、飲水"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="狗狗的飲水應該要隨時供給，要讓狗狗想喝水時就有水喝，以免脫水或是中暑。如果狗狗可活動範圍過大(達兩層樓或以上)，建議增加水碗的數量。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水源最好是經過煮沸或是逆滲透等處理過，不要使用未處理過的水與汙水以免致病。裝飲用水的容器一天至少換一次水，一周徹底清洗容器一次。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3、清潔"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="狗狗汗腺並不發達，不需常常洗澡，大多數狗狗一周洗一次便已足夠。過於頻繁的清洗易導致皮膚問題。洗劑請使用狗用洗劑，請勿使用人類洗劑。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清洗時最好順便擠肛門腺(方法請詢問寵物美容師與獸醫師)，可預防異味與肛門腺炎，另外清洗時小心耳朵進水，澡洗完後最好使用清耳劑清潔耳朵並帶出裡面水分。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="長毛狗可每天使用針梳進行梳毛，可預防毛髮打結；若毛髮打結無法梳開則需剪開，以免打結處底下皮膚出現異狀。長毛狗一個月至少請美容師整理毛髮一次。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="指甲修剪的頻率依照狗狗的生活環境而定，常在外奔跑的狗狗較少需要剪指甲，長期生活在磁磚上的狗狗需要常注意指甲是否過長，過長可自行或請美容師修剪。唯須注意狗狗拇指的指甲，因無法摩擦地面故過長時仍須修剪以免刺入肉裡。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4、排便與排尿"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="狗狗從斷奶就可以開始訓練排便排尿，越早開始訓練越容易學會，學成之後也要常練習。幼犬四個月大前還不能隨意的控制排尿，故四個月大前排尿訓練請勿過分要求。最好以訓練狗狗能自行去籠子或是廁所地板如廁為目標，盡量不要只限定於戶外，若狗狗只敢在戶外排尿，有可能會因憋尿造成問題。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="幼犬大部分是再起床後15分鐘或是進食前後15分鐘排便，所以可在那時以牽繩將狗狗帶到指定地點，不要與狗狗玩耍、不要隨意動作，待狗狗排便完之後馬上給予讚美與獎賞點心，讓狗狗知道要在此排便。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5、居住"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="因幼犬體內自行調節體溫的機能尚未完備，睡在地板或是吹電扇(即使是夏天)都可能造成生病。請為小狗準備一個能遮風蔽雨的床，若天氣寒冷也可在適當位置吊掛保溫燈以保持溫度避免失溫。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="如果狗狗很調皮，會啃咬電線的話，務必小心電線放在地面或是加裝防咬裝置，以免被咬壞的電線短路火災或是讓狗狗被電到。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6、保健"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="幼犬於斷奶兩周後(約兩個多月大)便可開始進行預防針注射計劃。狗狗到達接種適期時，只要食慾排便皆正常，便可及早請獸醫師進行預防針注射，以減少狗狗被傳染病危害的機率。(ps: 注射預防針後一周內不可洗澡出門)"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="幼犬於三個月後至六個月大之前，一定要開始服用驅心絲蟲藥，每一個月一次，以避免已經由蚊子入侵狗狗體內的心絲蟲幼蟲有機會長成成蟲。慢性危害狗狗的健康。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剛飼養的狗狗建議先驅腸胃道寄生蟲一次，驅完蟲後常出外的狗1~3月驅蟲一次，大都待在家的狗則半年驅一次即可。(PS:腸胃道寄生蟲與心絲蟲是不同的喔)"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PS: 六月至八月大起狗狗逐漸開始性成熟，要留意別讓愛犬懷孕喔。(母狗外出時可著生理褲)即使有計畫生育，也要耐心等待狗狗成年(一歲以後)再來生小狗會比較健康。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PS2: 大型狗性成熟有些會較慢，有少數狗狗甚至兩歲才出現發情。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

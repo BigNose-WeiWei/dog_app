@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".common_sense_condition">
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tesxt" />
+
+    <TextView
+        android:id="@+id/tesxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="犬  隻  飼  養  指  引"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view16">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1、飼養行為是否影響家人和鄰居"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="174dp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="30"
+                android:text="這個是首要條件，自己飼養狗狗的行為，不能影響到自己的家人和鄰居。如果和你的家庭成員有害怕狗狗的，或因訓練不當，導致狗狗在家隨地亂大小便、無故亂叫等，影響到了家人和鄰居，這時候就要好好考慮自己是不是適合養狗。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="74dp"
+                tools:layout_editor_absoluteY="122dp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2、是否有稍微大點的居住空間"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="259dp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="狗狗總是需要一定的活動量的，尤其是一些中大型犬，對活動量的要求更大，給它們提供稍微大點的空間，也是十分必要的。如果你是在校大學生或者是剛參加工作不久的學生，在還沒有屬於自己蝸居的時候，恐怕養狗狗的計劃要推後了，因為狗狗的成長需要一個足夠大的空間。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="87dp"
+                tools:layout_editor_absoluteY="470dp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3、每天是否有陪伴狗狗的時間"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="有些上班族，工作很忙，一會到家，因為疲勞，基本無暇顧自己的狗狗了。我覺得要保證每天為狗狗抽出一個小時的時間來，因為狗狗是一種非常依賴人的動物，它特別喜歡和人親近，在主人跟前撤嬌。"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="狗狗的食物也不能圖省事一次餵得太多，那樣的話小狗狗很可能因為貪吃而引起消化不良。帶狗狗出去，讓狗狗儘可能地貼近自然，讓狗狗盡情地在草地上奔跑、撒歡，對寶貝狗身體和心理的成長是很重要的。"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4、是否有一定的經濟能力"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="狗狗也是一個小生命，當你養了它，要給它吃喝、玩具、衣服等等，如果狗狗不小心生病了，可能還要為它支付不菲的醫療費。即使可以讓狗狗隨主人一起吃粗茶淡飯不去吃比較貴的狗糧，即使可以不給它買玩具、衣服，即使你可以不去給狗狗做美容保健，但它必要的疫苗注射、生病治療的費用，你還是必須要準備的。​這時候就不要存在什麼僥倖心理，認為偷偷地養一隻狗狗就可以了，這樣對你和你的狗狗都是很殘忍的一件事情。我們永遠忘不了第一次見到它時，那種怦然心動的感覺，但為了生命的責任，也請捫心自問，自己是否有條件飼養呢?"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

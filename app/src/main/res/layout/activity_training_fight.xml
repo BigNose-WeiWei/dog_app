@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Training.Training_fight">
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="讓寵物狗狗相處法則"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view8">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="2dp"
+                android:text="1、觀察等級地位"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="狗狗們會從體型的大小、強健的程度、到家裡時間早晚、主人的喜歡程度等等外在因素，感覺到自己在家裡的地位。在日常生活中，你可以從許多細節了解狗狗的本能等級。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView28"
+                app:layout_constraintStart_toStartOf="@+id/textView28"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="2、了解從屬關係"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="若兩隻狗狗同時走到門口，哪隻讓另一隻先走，而另一隻慢一些才過來；家裡最舒服睡覺的地方總是被哪隻狗狗佔領，從這些日常起居你都可以發現在狗狗之間是有地位之分的。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView126"
+                app:layout_constraintStart_toStartOf="@+id/textView126"
+                app:layout_constraintTop_toBottomOf="@+id/textView126"
+                tools:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="3、主人絕對地位"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView133" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="不管是人，還是狗狗，我們都是這個家庭的一份子，因此，飼主必須要掌握主宰的地位。要做到這一點，首先就必須強化狗狗的服從性，也就是增加飼主掌控主宰的能力。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView147"
+                app:layout_constraintStart_toStartOf="@+id/textView147"
+                app:layout_constraintTop_toBottomOf="@+id/textView147" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="4、訓練狗服從性"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView148" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="訓練狗狗的服從性，可以先利用餵食的機會，讓狗狗聽懂一些簡單的命令，例如坐下或不動等等，一直訓練到狗狗能夠對我們的命令產生立即且正確的反應為止。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView149"
+                app:layout_constraintStart_toStartOf="@+id/textView149"
+                app:layout_constraintTop_toBottomOf="@+id/textView149" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="2dp"
+                android:text="5、確立地位關係"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView150" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="要想讓狗狗可以相安無事的一起生活，停止無休止的爭鬥，就需要讓狗狗之間的地位之分更加清楚，而且要讓牠們覺得你認可了這種地位關係。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView151"
+                app:layout_constraintStart_toStartOf="@+id/textView151"
+                app:layout_constraintTop_toBottomOf="@+id/textView151" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="6、少介入狗紛爭"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView152" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="有時主宰地位的競爭不見得會有很明顯的打鬥行為發生。因此，除非這種打鬥太過激烈，否則飼主不需要介入，更不要去處罰發動攻擊的狗狗。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView153" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="7、不宜單獨相處"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView154" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="若狗狗每一回的打鬥都非常地激烈，那絕對不能讓狗狗在沒有人監督的情況下獨處。狗狗一旦發生打鬥，飼主絕對要立即介入而且處罰的強度必須要能夠中止這種行為。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView155" />
+
+            <TextView
+                android:id="@+id/textView157"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="8、轉情緒易誤導"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView156" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="不能為了轉移狗狗激動的情緒，而給予一些像獎勵般的安撫行為，例如食物、抱抱等等，因為這會讓狗狗誤會我們是在聲援他，反而會促使其變本加厲。"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView157" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
